@@ -29,4 +29,4 @@ A exclusão apenas como um botão que quando clicado procura o dado no banco via
 
 ## Caso de Uso
 
-![alt text](image.png)
+![alt text](assets/img/image.png)
