@@ -41,9 +41,11 @@ mysqli_stmt_close($stmt);
             <label for="categoria">Categoria:</label>
             <select name="categoria" id="categoria" required>
                 <option value="<?php echo htmlspecialchars($result["categoria"] ?? ""); ?>"><?php echo htmlspecialchars($result["categoria"] ?? ""); ?></option>
-                <option value="limpeza">Limpeza</option>
-                <option value="brinquedo">Brinquedo</option>
-                <option value="esportivo">Esportivo</option>
+                <option value="Congelado">Congelado</option>
+                <option value="Confeitaria">Confeitaria</option>
+                <option value="Hortifruti">Hortifruti</option>
+                <option value="Açougue">Açougue</option>
+                <option value="Laticinio">Laticínio</option>
             </select>
             <br>
 

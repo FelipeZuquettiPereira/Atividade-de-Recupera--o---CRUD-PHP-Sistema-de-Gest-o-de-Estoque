@@ -29,9 +29,11 @@ $result = mysqli_query($conexao, "SELECT * FROM produto");
             <label for="categoria">Categoria:</label>
             <select name="categoria" id="categoria" required>
                 <option value="">Selecione uma categoria</option>
-                <option value="limpeza">Limpeza</option>
-                <option value="brinquedo">Brinquedo</option>
-                <option value="esportivo">Esportivo</option>
+                <option value="Congelado">Congelado</option>
+                <option value="Confeitaria">Confeitaria</option>
+                <option value="Hortifruti">Hortifruti</option>
+                <option value="Açougue">Açougue</option>
+                <option value="Laticinio">Laticínio</option>
             </select>
             <br>
 
